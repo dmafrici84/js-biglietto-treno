@@ -1,0 +1,46 @@
+
+body {
+  background-image: url(https://www.ilmessaggero.it/photos/MED/80/79/5038079_1538_frecciarossa1000.jpg);
+  background-size: cover;
+  color: #c41329;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h4 {
+  color: #616467;
+  font-size: 22px;
+}
+
+h3 {
+  color: #fffb00;
+  font-size: 35px;
+  text-align: center;
+  background-color: rgba(196, 19, 41, 0.5);
+  width: 70%;
+  border-radius: 8px;
+  margin: 0 auto 60px;
+}
+
+.centratura {
+  padding: 0.5% 1%;
+}
+
+.dati {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin: 35px auto;
+}
+
+#js-prezzo {
+  width: 30%;
+  font-size: 80px;
+  color: #fff;
+  background-color: #c41329;
+  text-align: center;
+  border-radius: 8px;
+  margin: 100px auto;
+}
