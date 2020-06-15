@@ -36,7 +36,6 @@ if (eta < 18) {
   // Autput per l'utente
 
   document.getElementById('js-sconto').innerHTML = "Complimenti sei minorenne !!! Hai ottenuto uno sconto del 20% !!!";
-  document.getElementById('js-prezzo').innerHTML = prezzoFinale + " euro";
 
 } else if (eta > 65) {
 
@@ -46,14 +45,13 @@ if (eta < 18) {
   // Autput per l'utente
 
   document.getElementById('js-sconto').innerHTML = "Complimenti sei un Over65 !!! Hai ottenuto uno sconto del 40% !!! ";
-  document.getElementById('js-prezzo').innerHTML = prezzoFinale + " euro";
 
 } else {
 
   prezzoFinale = prezzo.toFixed(2);
 
+}
+
   // Autput per l'utente
 
   document.getElementById('js-prezzo').innerHTML =   prezzoFinale + " euro";
-
-}
